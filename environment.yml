@@ -1,13 +1,13 @@
-name: example-environment
+name: visualpython-binder
 channels:
   - conda-forge
 dependencies:
+  - python
   - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - pip
+  - pip:
+    - pandas
+    - matplotlib
+    - seaborn
+    - scikit-learn
+    - jupyterlab-visualpython
