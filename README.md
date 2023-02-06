@@ -1,10 +1,10 @@
 # Conda environment with Visual Python installed
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/visualpython/visualpython-binder/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/visualpython/visualpython-binder/HEAD?labpath=index.ipynb)
 
 Access this Binder with Visual Python installed by clicking the blue badge above or at the following URL:
 
-https://mybinder.org/v2/gh/visualpython/visualpython-binder/HEAD
+https://mybinder.org/v2/gh/visualpython/visualpython-binder/HEAD?labpath=index.ipynb
 
 ---
 
