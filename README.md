@@ -1,31 +1,18 @@
-# Conda environment with environment.yml
+# Conda environment with Visual Python installed
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/conda_environment/HEAD?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/visualpython/visualpython-binder/HEAD)
 
-A Binder-compatible repo with an `environment.yml` file.
+Access this Binder with Visual Python installed by clicking the blue badge above or at the following URL:
 
-Access this Binder by clicking the blue badge above or at the following URL:
+https://mybinder.org/v2/gh/visualpython/visualpython-binder/HEAD
 
-http://mybinder.org/v2/gh/binder-examples/conda_environment/HEAD?filepath=index.ipynb
+---
 
-## Notes
-The `environment.yml` file should list all Python libraries on which your notebooks
-depend, specified as though they were created using the following `conda` commands:
+# This repository is for supporting Visual Python project
 
-```
-conda activate example-environment
-conda env export --from-history -f environment.yml
-```
+[![VisualPython: Github](https://img.shields.io/badge/Visual%20Python-Github-yellow)](https://github.com/visualpython/visualpython)
+[![VisualPython: Homepage](https://img.shields.io/badge/Visual%20Python-Home%20Page-orange)](https://visualpython.ai)
+[![VisualPython: Colab](https://img.shields.io/badge/Visual%20Python-Google%20Colab-green)](https://chrome.google.com/webstore/detail/visual-python-for-colab/ccmkpknjfagaldcgidgcipbpdipfopob)
 
-Note that the only libraries available to you will be the ones specified in
-the `environment.yml`, so be sure to include everything that you need! 
+Get started using Visual Python on **Jupyter Lab**, **Jupyter Notebook** and **Google Colab**.
 
-Also note that if you skip the `--from-history`, conda may include OS-specific
-packages in `environment.yml`, which you would have to manually prune from
-`environment.yml`.  For example, confirmed macOS-specific packages that should
-be removed are:
-
-* libcxxabi=4.0.1
-* appnope=0.1.0
-* libgfortran=3.0.1
-* libcxx=4.0.1
