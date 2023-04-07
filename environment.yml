@@ -10,4 +10,4 @@ dependencies:
   - pip:
     - seaborn
     - scikit-learn
-    - jupyterlab-visualpython
+    - jupyterlab-visualpython==2.3.5
